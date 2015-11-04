@@ -18,7 +18,7 @@ The main features of the P4A AndroidVibrationModule include the following:
 
 ## Usage instructions
 
-A complete example showing how the P4A AndroidVibrationModule can be used to add vibration vibration feedback to the GUI components of an Android application can be found [here](https://github.com/P4ALLcerthiti/AndroidVibrationModule/tree/master/MyTestApp).
+A complete example showing how the P4A AndroidVibrationModule can be used to add vibration vibration feedback to various GUI components of an Android application can be found [here](https://github.com/P4ALLcerthiti/AndroidVibrationModule/tree/master/MyTestApp).
 
 Adding haptic feedback in a GUI component (e.g. button, etc.) can be achieved using the P4A AndroidVibrationModule by a simple line of code:
 
