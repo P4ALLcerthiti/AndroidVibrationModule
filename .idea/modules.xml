@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/P4A_AndroidVibrationModule.iml" filepath="$PROJECT_DIR$/P4A_AndroidVibrationModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidVibrationModule.iml" filepath="$PROJECT_DIR$/AndroidVibrationModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyTestApp/MyTestApp.iml" filepath="$PROJECT_DIR$/MyTestApp/MyTestApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/P4A_VibrationModule/P4A_VibrationModule.iml" filepath="$PROJECT_DIR$/P4A_VibrationModule/P4A_VibrationModule.iml" />
     </modules>
   </component>
