@@ -1,5 +1,5 @@
-P4A_AndroidVibrationModule
-==========================
+P4A - AndroidVibrationModule
+============================
 
 An Android Library that offers a mechanism for easily adding vibration feedback to Android applications.
 
@@ -24,7 +24,7 @@ Adding haptic feedback in a GUI component (e.g. button, etc.) can be achieved us
 
 	P4A_VibrationModule.getInstance(this).addVibrationFeedbackOnEventListener(P4A_VibrationModule.ON_CLICK, findViewById(R.id.button1), 2000);
 
-The example above adds vibration feedback to "button1". In particular, when this button is clicked, it vibrates for 2 seconds.
+*The example above adds vibration feedback to "button1". In particular, when this button is clicked, it vibrates for 2 seconds.*
 
 Further examples can be found [here](https://github.com/P4ALLcerthiti/AndroidVibrationModule/blob/master/MyTestApp/src/main/java/certh/iti/testapp/MainActivity.java#L23-L48).
 
