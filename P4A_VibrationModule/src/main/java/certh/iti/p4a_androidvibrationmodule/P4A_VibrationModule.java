@@ -50,19 +50,25 @@ public class P4A_VibrationModule
     public static final int ON_TOUCH = 4;               //when the user presses the key, releases the key, or any movement gesture on the screen
     public static final int ON_MENU_ITEM_CLICK = 5;     //when the user selects a menu item
     public static final int ON_CREATE_CONTEXT_MENU = 6; //when the context menu is being built (as the result of a sustained "long click)
-    public static final int ON_DRAG = 7;
+    public static final int ON_DRAG = 7;				//when the user starts to drag an element
 
     Context mContext;
     Vibrator mVibrator;
 
     private static P4A_VibrationModule instance = null;
 
+	/////////////////
+	// CONSTRUCTOR //
+	/////////////////
     private P4A_VibrationModule(Context curContext)
     {
         mContext = curContext;
         mVibrator = (Vibrator) curContext.getSystemService(Context.VIBRATOR_SERVICE);
     }
 
+	//////////////////////////////////////////////////
+	// GETTING THE INSTANCE OF THE VIBRATION MODULE //
+	//////////////////////////////////////////////////
     public static P4A_VibrationModule getInstance(Context curContext)
     {
         if(instance == null)
@@ -70,11 +76,17 @@ public class P4A_VibrationModule
         return instance;
     }
 
+	////////////////////////////////////////
+	// CHECK IF DEVICE SUPPORTS VIBRATION //
+	////////////////////////////////////////
     public boolean deviceSupportsVibration()
     {
         return mVibrator.hasVibrator();
     }
 
+	////////////////////
+	// STOP VIBRATION //
+	////////////////////
     public void stopVibration()
     {
         mVibrator.cancel();
